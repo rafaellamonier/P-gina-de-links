@@ -1,0 +1,129 @@
+:root {
+    --background-default: #141414;
+    --primary-color: #BACE21;
+    --white-default: #FFFFFF;
+    --black-default: #1F1F1F;
+    --gray-default: #333333;
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-default);
+}
+
+.container {
+    width: 23.75rem;
+    background-color: var(--black-default);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.625rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3.125rem;
+}
+
+.imageProfile {
+    width: 5.625rem;
+    height: 5.625rem;
+    border-radius: 50%;
+    margin-bottom: 1.25rem;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black-default);
+    margin-top: 2.188rem;
+}
+
+.containerInfo h1 {
+    background-color: var(--black-default);
+    color: var(--white-default);
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+
+.containerInfo h3 {
+    background-color: var(--black-default);
+    color: var(--primary-color);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1.563rem;
+}
+
+.containerInfo p {
+    background-color: var(--black-default);
+    color: var(--white-default);
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+}
+
+.containerSocial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.938rem;
+    width: 100%;
+    margin-top: 1.25rem;
+}
+
+.containerSocial a {
+    width: 18.75rem;
+    height: 2.813rem;
+    padding: 0.800rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-default);
+    margin-bottom: 0.625rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
+}
+
+.containerSocial a {
+    color: var(--white-default);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.625rem;
+    border-radius: 0.313rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.525rem;
+    color: var(--white-default);
+    font-size: 0.775rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    padding: 1.25rem;
+    background-color: var(--black-default);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
